@@ -4,6 +4,7 @@ import java.util.Objects;
 
 public class LineComparisonProblem {
     public static void main(String args[]){
+
        int x1 = 2 , x2 = 3 ,y1 = 4 , y2 = 6 ;
        int a1 = 3 , a2 = 5 , b1 = 1 , b2 = 7 ;
 
@@ -17,5 +18,6 @@ public class LineComparisonProblem {
        System.out.println("The length of line2 is: " + lengthOfLine2);
 
        System.out.print(Objects.equals(lengthOfLine1, lengthOfLine2));
+       System.out.print(lengthOfLine1.compareTo(lengthOfLine2));
     }
 }
